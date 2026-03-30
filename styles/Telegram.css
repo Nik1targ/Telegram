@@ -184,8 +184,48 @@ body {
    .cht {
     display: flex;
     color: white;
-    width: 49;
-    height: 50px;
-    padding: 0px 0;
+    padding: 1px 30px;
+    font-size: 21px;
     
+   }
+
+
+   .button {
+    padding: 15px 20px;
+   }
+
+   .vnv-button {
+    background:  #4b4a4a;
+    border: none;
+    padding: 9px 29px;
+    font-size: 16px;
+    outline: none;
+    color: rgb(39, 38, 38);
+    cursor: text;
+    border-radius:30px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 196px;
+    transition: all 0.2s ease;
+  }
+  
+  .vnv-button:focus {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+  }
+
+
+   .input_wraper{
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+
+
+   }
+
+   .input_icon{
+    width: 15px;
+    height: 15px;
    }
