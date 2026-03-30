@@ -179,3 +179,13 @@ body {
     border-right: 1px solid rgb(182, 182, 182);
     
    }
+
+
+   .cht {
+    display: flex;
+    color: white;
+    width: 49;
+    height: 50px;
+    padding: 0px 0;
+    
+   }
