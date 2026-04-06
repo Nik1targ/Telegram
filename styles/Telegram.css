@@ -83,10 +83,6 @@ body {
     border-right: 2px solid #2A2A2A;
 }
 
-.chat_wrapper {
-    border-right: 2px solid #2A2A2A;
-    width: 100%;
-}
 
    .wraper_vert_lg{
     display: flex;
@@ -172,7 +168,6 @@ body {
    .chat_wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     width: 390px;
     height: 100vh;
     padding: 90px 0;
@@ -198,7 +193,7 @@ body {
     background:  #4b4a4a;
     border: none;
     padding: 9px 29px;
-    font-size: 16px;
+    font-size: 14px;
     outline: none;
     color: rgb(39, 38, 38);
     cursor: text;
@@ -209,6 +204,11 @@ body {
     position: absolute;
     top: 196px;
     transition: all 0.2s ease;
+
+
+       
+    
+    
   }
   
   .vnv-button:focus {
@@ -217,15 +217,16 @@ body {
   }
 
 
-   .input_wraper{
-    /* position: relative; */
-    display: flex;
-    justify-content: space-between;
-
-
-   }
 
    .input_icon{
     width: 15px;
     height: 15px;
+    position: absolute;
+   }
+
+
+   .dobav_plz{
+    width: 50px;
+    height: 50px;
+    padding:17px;
    }
