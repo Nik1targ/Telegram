@@ -219,14 +219,59 @@ body {
 
 
    .input_icon{
-    width: 15px;
-    height: 15px;
+    width: 17px;
+    height: 17px;
     position: absolute;
+    padding-left:13px;
+    top: 203px;
    }
 
 
    .dobav_plz{
     width: 50px;
     height: 50px;
-    padding:17px;
+    padding:27px;
+   }
+
+
+
+
+
+   .contactin{
+    display: flex;
+    position:relative;
+   }
+
+
+   .contacts{
+    padding-left:90px;
+  
+    
+   }
+
+
+   .kt1{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    
+   }
+
+   
+   .kt2{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+   }
+   
+   .kt3{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+   }
+   
+   .kt4{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
    }
