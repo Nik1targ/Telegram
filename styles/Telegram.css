@@ -46,6 +46,12 @@ body {
     height: 30px;
     width: 30px;
    }
+   
+  .menu_icons_top1{
+    height: 30px;
+    width: 100px;
+   }
+
 
 .sidebar {
     display: flex;
