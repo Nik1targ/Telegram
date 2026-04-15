@@ -243,6 +243,7 @@ body {
     gap: 50px;
     align-items: center;
     flex-direction: column;
+    
     }
  
     .name_vert_lg{
@@ -252,6 +253,7 @@ body {
      font-size: 17px;
      border-radius: 50%;
      object-fit: cover;
+     padding: px;
     }
 
     .name_vert_lg{
