@@ -236,3 +236,28 @@ body {
     object-fit: cover;
    }
 
+
+
+   .name_chat{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    flex-direction: column;
+    }
+ 
+    .name_vert_lg{
+     max-width: 100%;
+     height: 1px;
+     color: white;
+     font-size: 17px;
+     border-radius: 50%;
+     object-fit: cover;
+    }
+
+    .name_vert_lg{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    flex-direction: column;
+     }
+
