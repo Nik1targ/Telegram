@@ -263,3 +263,9 @@ body {
     flex-direction: column;
      }
 
+
+     .chat_details {
+        display: flex;
+        gap: 10px;
+        
+     }
