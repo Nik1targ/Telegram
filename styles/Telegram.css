@@ -287,13 +287,13 @@ body {
 
 
     .main_chat_plz{
-   
-   
-
+        display: flex;
+        width: 100%;
+        padding: 0px 0px;
+        border-top: 2px solid #2A2A2A;
     }
+    
+   .main_comment{
+    
+   }
 
-
-
-    .gor_chat_plz{
-
-    }
