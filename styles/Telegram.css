@@ -284,9 +284,18 @@ body {
    
 
      .icn{
-        width: 65px;
-        height: 65px;
+        width: 70px;
+        height: 70px;
         border-radius: 50%;
         object-fit: cover;
+        padding: 40px 50px;
         
+     }
+
+
+     .name-main{
+        padding: 82px 0px;
+        color: white;
+        font-size: 23px;
+
      }
