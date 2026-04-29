@@ -299,3 +299,20 @@ body {
         font-size: 23px;
 
      }
+
+
+     .zvonok{
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        top:150px;
+        padding-left: 1215px;
+     }
+
+     .kamera{
+        position: absolute;
+        width: 35px;
+        height: 20px;
+        top:153px;
+        padding-left: 1300px;
+     }
