@@ -276,43 +276,45 @@ body {
 
     .main_chat_plz{
         display: flex;
+        justify-content: space-between;
         width: 100%;
-        padding: 0px 0px;
-        border-top: 2px solid #2A2A2A;
+        height: 100px;
+        align-items: center;
+        border-bottom: 2px solid #2A2A2A;
     }
     
-   
-
-     .icn{
+    .icn{
         width: 70px;
         height: 70px;
         border-radius: 50%;
         object-fit: cover;
         padding: 40px 50px;
-        
      }
+.main_chat_plz-contact {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.main_chat_plz-actions {
+    display: flex;
+    gap: 20px;
+}
 
-
-     .name-main{
-        padding: 82px 0px;
-        color: white;
-        font-size: 23px;
-
-     }
-
+.main_chat_plz-contact-info {
+    color: #fff;
+    font-size: 25px;
+}
 
      .zvonok{
-        position: absolute;
         width: 25px;
         height: 25px;
-        top:150px;
-        padding-left: 1300px;
      }
 
      .kamera{
-        position: absolute;
         width: 35px;
         height: 20px;
-        top:153px;
-        padding-left: 1400px;
      }
+
+
+
+
