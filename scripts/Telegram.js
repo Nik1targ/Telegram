@@ -14,7 +14,15 @@
 // @ts-nocheck
 
 const johnSelectorBtn = document.querySelector('#john-selector')
-const janeSelectorBtn = document.querySelector('#jane-selector')
+const harrySelectorBtn = document.querySelector('#harry-selector')
+const natashaSelectorBtn = document.querySelector('#natasha-selector')
+const piterSelectorBtn = document.querySelector('#piter-selector')
+const margaretSelectorBtn = document.querySelector('#margaret-selector')
+const vanessaSelectorBtn = document.querySelector('#vanessa-selector')
+const mioraSelectorBtn = document.querySelector('#miora-selector')
+const hannaSelectorBtn = document.querySelector('#hanna-selector')
+const lynaSelectorBtn = document.querySelector('#lyna-selector')
+const maikalSelectorBtn = document.querySelector('#maikal-selector')
 const chatHeader = document.querySelector('.chat-header')
 const chatMessages = document.querySelector('.chat-messages')
 const chatInputForm = document.querySelector('.chat-input-form')
@@ -46,19 +54,60 @@ const updateMessageSender = (name) => {
 
   if (name === 'John') {
     johnSelectorBtn.classList.add('active-person')
-    janeSelectorBtn.classList.remove('active-person')
+    harrySelectorBtn.classList.remove('active-person')
   }
-  if (name === 'Jane') {
-    janeSelectorBtn.classList.add('active-person')
+  if (name === 'harry') {
+    harrySelectorBtn.classList.add('active-person')
     johnSelectorBtn.classList.remove('active-person')
   }
+  if (name === 'natasha') {
+    natashaSelectorBtn.classList.add('active-person')
+    piterSelectorBtn.classList.remove('active-person')
+  }
+  if (name === 'piter') {
+    piterSelectorBtn.classList.add('active-person')
+    natashaSelectorBtn.classList.remove('active-person')
+  }
+  if (name === 'margaret') {
+    margaretSelectorBtn.classList.add('active-person')
+    vanessaSelectorBtn.classList.remove('active-person')
+  }
+  if (name === 'vanessa') {
+    vanessaSelectorBtn.classList.add('active-person')
+    margaretSelectorBtn.classList.remove('active-person')
+  }
+  if (name === 'miora') {
+    mioraSelectorBtn.classList.add('active-person')
+    hannaSelectorBtn.classList.remove('active-person')
+  }
+  if (name === 'hanna') {
+    hannaSelectorBtn.classList.add('active-person')
+    mioraSelectorBtn.classList.remove('active-person')
+  }
+  if (name === 'lyna') {
+    lynaSelectorBtn.classList.add('active-person')
+    maikalSelectorBtn.classList.remove('active-person')
+  }
+  if (name === 'maikal') {
+    maikalSelectorBtn.classList.add('active-person')
+    lynaSelectorBtn.classList.remove('active-person')
+  }
+ 
 
   /* auto-focus the input field */
   chatInput.focus()
 }
 
 johnSelectorBtn.onclick = () => updateMessageSender('John')
-janeSelectorBtn.onclick = () => updateMessageSender('Jane')
+harrySelectorBtn.onclick = () => updateMessageSender('harry')
+natashaSelectorBtn.onclick = () => updateMessageSender('natasha')
+piterSelectorBtn.onclick = () => updateMessageSender('piter')
+margaretSelectorBtn.onclick = () => updateMessageSender('margaret')
+vanessaSelectorBtn.onclick = () => updateMessageSender('vanessa')
+mioraSelectorBtn.onclick = () => updateMessageSender('miora')
+hannaSelectorBtn.onclick = () => updateMessageSender('hanna')
+lynaSelectorBtn.onclick = () => updateMessageSender('lyna')
+maikalSelectorBtn.onclick = () => updateMessageSender('maikal')
 
 const sendMessage = (e) => {
   e.preventDefault()
