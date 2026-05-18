@@ -135,7 +135,7 @@ const sendMessage = (e) => {
 
 chatInputForm.addEventListener('submit', sendMessage)
 
-clearChatBtn.addEventListener('click', () => {
+attachment-btn.addEventListener('click', () => {
   localStorage.clear()
   chatMessages.innerHTML = ''
 })
