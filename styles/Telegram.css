@@ -425,13 +425,13 @@ body {
     transform: translateY(2px);
   }
   
-  .person-selector {
+  /* .person-selector {
     display: flex;
     justify-content: center;
     gap: 1em;
     margin: 3em auto 1em;
     max-width: 40em;
-  }
+  } */
   
   .person-selector-button {
     width: 100%;
@@ -446,7 +446,7 @@ body {
   }
   
   .chat-container {
-    background: #15202b;
+    /* background: #15202b; */
     font-family: 'Roboto', sans-serif;
     border-radius: 0.5em;
     padding: 0.5em 1.25em;
@@ -454,6 +454,7 @@ body {
     max-width: 37.5em;
     height: 37.5em; */
     box-shadow: 0 0 1.25em 0.5em #c3c3c333;
+    width: 100%;
   }
   
   .chat-header {
